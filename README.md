@@ -126,7 +126,7 @@ curl --request POST \
 }'
 ```
 
-**Update**
+**Update (MOCK)**
 
 Path: http://localhots:3000/{entity_name}/{id} \
 Method: PATCH
@@ -140,7 +140,7 @@ curl --request PATCH \
 }'
 ```
 
-**Delete**
+**Delete (MOCK)**
 
 Path: http://localhots:3000/{entity_name}/{id} \
 Method: DELETE

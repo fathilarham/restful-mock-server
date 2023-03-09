@@ -100,7 +100,7 @@ app.get("/:entityName/:id", (req, res) => {
         return res.sendStatus(404)
     }
 
-    return res.status(200).json(entities[0])
+    return res.status(200).json({data: entities[0]})
 })
 
 // Store

@@ -15,7 +15,7 @@ A simple node service to serve RESTFul API from the json data file.
 ## Installation
 Clone this repository
 ```sh
-git clone https://github.com/fathil11/restful-mock-server.git
+git clone https://github.com/fathilarham/restful-mock-server.git
 ```
 
 Chage to repository directory

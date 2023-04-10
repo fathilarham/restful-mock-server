@@ -5,6 +5,7 @@ const fileUpload = require('express-fileupload');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
+app.use(cors());
 app.use(fileUpload());
 app.use(express.json());
 

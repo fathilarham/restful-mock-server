@@ -3,6 +3,7 @@ const express = require('express');
 const { check, validationResult } = require('express-validator');
 const fileUpload = require('express-fileupload');
 const { v4: uuidv4 } = require('uuid');
+const cors = require('cors');
 
 const app = express();
 app.use(cors());
